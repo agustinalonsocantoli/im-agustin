@@ -17,49 +17,42 @@
         font-size: 50px;
         font-family: v.$raleway;
         font-weight: 100;
-        color: v.$blue;
-    }
-
-    h2 {
-        font-size: 50px;
-        font-family: v.$raleway;
-        font-weight: 100;
-        color: v.$blue;
+        color: v.$principal;
     }
 
     .tw__content {
         font-size: 50px;
         font-family: v.$raleway;
         font-weight: 100;
-        color: v.$blue;
+        color: v.$principal;
     }
 
     .tw__cursor {
         font-size: 50px;
         font-family: v.$raleway;
         font-weight: 100;
-        color: v.$blue;
+        color: v.$principal;
     }
 
     .home__bar {
         margin: 20px auto;
-        width: 550px;
+        width: 400px;
         height: 15px;
         border-radius: 50px;
         background: v.$fondo;
-        box-shadow: inset 6px 6px 12px rgb(25 25 25),
+        box-shadow: inset 6px 6px 12px rgb(5 5 5),
                     inset -6px -6px 12px rgb(45 45 45);
 
         .bar-progress {
             display: block;
             width: 20%;
             height: 100%;
-            background: v.$blue;
+            background: v.$principal;
             border-radius: 50px;
 
-            -webkit-box-shadow: 10px 0px 10px 0px rgba(82,241,243,0.6);
-            -moz-box-shadow: 10px 0px 10px 0px rgba(82,241,243,0.6);
-            box-shadow: 10px 0px 10px 0px rgba(82,241,243,0.6);
+            -webkit-box-shadow: 10px 0px 10px 0px rgba(187, 237, 47,0.6);
+            -moz-box-shadow: 10px 0px 10px 0px rgba(187, 237, 47,0.6);
+            box-shadow: 10px 0px 10px 0px rgba(187, 237, 47,0.6);
         }
     }
 
