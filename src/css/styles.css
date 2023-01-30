@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(35, 35, 35);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.home {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.home h1 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #52F1F3;
+}
+.home h2 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #52F1F3;
+}
+.home .tw__content {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #52F1F3;
+}
+.home .tw__cursor {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #52F1F3;
+}
+.home .home__bar {
+  margin: 20px auto;
+  width: 550px;
+  height: 15px;
+  border-radius: 50px;
+  background: rgb(35, 35, 35);
+  box-shadow: inset 6px 6px 12px rgb(25, 25, 25), inset -6px -6px 12px rgb(45, 45, 45);
+}
+.home .home__bar .bar-progress {
+  display: block;
+  width: 20%;
+  height: 100%;
+  background: #52F1F3;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 0px 10px 0px rgba(82, 241, 243, 0.6);
+  -moz-box-shadow: 10px 0px 10px 0px rgba(82, 241, 243, 0.6);
+  box-shadow: 10px 0px 10px 0px rgba(82, 241, 243, 0.6);
+}
+
+/*# sourceMappingURL=styles.css.map */
