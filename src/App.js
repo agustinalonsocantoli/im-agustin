@@ -1,6 +1,7 @@
 import { Home } from './components/Home';
+// import { Start } from './components/Start';
 
-function App() {
+const App = () => {
   return (
     <div>
       <Home />
