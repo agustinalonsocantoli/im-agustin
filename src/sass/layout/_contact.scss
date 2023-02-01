@@ -1,0 +1,83 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.contact {
+    min-height: 100vh;
+    padding: 3%;
+    margin-right: 215px;
+    margin-top: 50px;
+    color: v.$white;
+    font-family: v.$raleway;
+
+    h2 {
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .contact__content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+
+        .contact__icons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            
+            a {
+                text-decoration: none;
+                color: v.$white;
+            }
+        }
+
+        .form {
+            width: 40%;
+            font-family: v.$raleway;
+            font-weight: 200;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            textarea {
+                resize: none;
+                width: 100%;
+                padding: 10px;
+                min-height: 150px;
+                border-radius: 10px;
+                border: 1px solid v.$white;
+                background: v.$secundario;
+                color: v.$white;
+            }
+        
+            input {
+                width: 100%;
+                height: 35px;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid v.$white;
+                background: v.$secundario;
+                color: v.$white;
+            }
+        
+            label {
+                width: 100%;
+            }
+
+            button {
+                width: 50%;
+                margin-left: auto;
+            }
+
+            textarea, input, button {
+                font-family: v.$raleway;
+                font-weight: 200;
+            }
+
+            textarea:focus, input:focus {
+                outline: none;
+            }
+        }
+    }
+}

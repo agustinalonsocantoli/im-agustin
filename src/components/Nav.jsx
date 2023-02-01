@@ -1,4 +1,6 @@
-export const Nav = () => {
+export const Nav = (props) => {
+
+
     return (
         <div className="nav">
             <ul>

@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Welcome } from './Welcome';
+import { Home } from './Home';
 
 export const Start = () => {
     const [ progress, setProgress ] = useState(0);
-    const [ start, setStart ] = useState(true);
+    const [ goHome, setGoHome ] = useState(false);
 
     useEffect(() => {
         const intervalProgress = setInterval(() => {
@@ -12,7 +12,7 @@ export const Start = () => {
 
         if(progress > 100) {
             clearInterval(intervalProgress)
-            setStart(false)
+            setGoHome(true)
         }
 
         return () => {
@@ -20,10 +20,10 @@ export const Start = () => {
         }
     }, [progress])
 
-    if(start) {
+    if(!goHome) {
     return (
         <div className='start'>
-            <h1>Hi There</h1>
+            <h1>Bienvenido</h1>
     
             <div className='start__bar'>
                 <span className='bar-progress' style={{width: `${progress}%`}}></span>
@@ -32,7 +32,7 @@ export const Start = () => {
     );
     } else {
         return (
-            <Welcome />
+            <Home />
         );
     }
 }

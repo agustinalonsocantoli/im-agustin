@@ -4,7 +4,6 @@
 .aboutme {
     display: flex;
     gap: 20px;
-    align-items: center;
     color: v.$white;
     font-family: v.$raleway;
     margin-right: 215px;
@@ -12,7 +11,7 @@
 
     .aboutme__img {
         min-width: 500px;
-        height: 600px;
+        height: 650px;
 
         img {
             width: 100%;
@@ -23,19 +22,60 @@
 
     .aboutme__content {
         padding: 2%;
-
-        h1 {
-            margin-bottom: 20px;
-            padding-bottom: 5px;
-            font-weight: 700;
-            width: 80%;
-            border-bottom: 5px double v.$principal;
-        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 70px;
 
         p {
-            width: 70%;
             font-weight: 200;
+            font-size: 20px;
             margin-bottom: 10px;
         }
+
+        .signos {
+            font-size: 20px;
+            font-family: v.$raleway;
+            font-weight: 100;
+            color: v.$principal;
+        }
+
+        .start__writer {
+
+            h2 {
+                font-size: 50px;
+                font-family: v.$raleway;
+                font-weight: 100;
+                color: v.$principal;
+            }
+
+            .tw__content, .tw__cursor {
+                font-size: 30px;
+                font-family: v.$raleway;
+                font-weight: 100;
+                color: v.$principal;
+            }
+        }
+
+        .aboutme__enlaces {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            .descarga {
+                border-bottom: 1px solid;
+                padding-bottom: 3px;
+                font-size: 15px;
+                color: v.$principal;
+                font-family: v.$raleway;
+                font-weight: 100;
+            }
+
+            .icons {
+                color: v.$white;
+            }
+        }
     }
+
 }

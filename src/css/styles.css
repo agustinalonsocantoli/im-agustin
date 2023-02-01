@@ -46,7 +46,7 @@ li {
 }
 .start .start__bar {
   margin: 20px auto;
-  width: 450px;
+  width: 300px;
   height: 15px;
   border-radius: 50px;
   background: rgb(15, 15, 15);
@@ -63,41 +63,6 @@ li {
   box-shadow: 10px 0px 10px 0px rgba(187, 237, 47, 0.6);
 }
 
-.welcome {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-}
-.welcome .welcome__title {
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  color: #BBED2F;
-}
-.welcome .counter {
-  font-size: 500px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  color: #BBED2F;
-}
-.welcome .tw__content {
-  font-size: 50px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  color: #BBED2F;
-}
-.welcome .tw__cursor {
-  font-size: 50px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  color: #BBED2F;
-}
-
 .nav {
   position: fixed;
   right: 0;
@@ -106,8 +71,9 @@ li {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-right: 20px;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 10px;
   height: 100vh;
 }
 .nav ul li {
@@ -117,7 +83,7 @@ li {
   position: relative;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
@@ -128,8 +94,8 @@ li {
   color: #BBED2F;
   width: 0;
   overflow: hidden;
-  transition: 2s;
-  border-right: 3px solid #BBED2F;
+  transition: 1s;
+  border-right: 2px solid #BBED2F;
   -webkit-text-stroke: 1px #BBED2F;
 }
 .nav ul li a:hover::before {
@@ -140,7 +106,6 @@ li {
 .aboutme {
   display: flex;
   gap: 20px;
-  align-items: center;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   margin-right: 215px;
@@ -148,7 +113,7 @@ li {
 }
 .aboutme .aboutme__img {
   min-width: 500px;
-  height: 600px;
+  height: 650px;
 }
 .aboutme .aboutme__img img {
   width: 100%;
@@ -157,22 +122,184 @@ li {
 }
 .aboutme .aboutme__content {
   padding: 2%;
-}
-.aboutme .aboutme__content h1 {
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  font-weight: 700;
-  width: 80%;
-  border-bottom: 5px double #BBED2F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px;
 }
 .aboutme .aboutme__content p {
-  width: 70%;
   font-weight: 200;
+  font-size: 20px;
   margin-bottom: 10px;
+}
+.aboutme .aboutme__content .signos {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #BBED2F;
+}
+.aboutme .aboutme__content .start__writer h2 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #BBED2F;
+}
+.aboutme .aboutme__content .start__writer .tw__content, .aboutme .aboutme__content .start__writer .tw__cursor {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #BBED2F;
+}
+.aboutme .aboutme__content .aboutme__enlaces {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.aboutme .aboutme__content .aboutme__enlaces .descarga {
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  font-size: 15px;
+  color: #BBED2F;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+.aboutme .aboutme__content .aboutme__enlaces .icons {
+  color: #ffffff;
 }
 
 .info {
-  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 3%;
+  margin-right: 215px;
+  margin-top: 50px;
+  color: #ffffff;
+}
+.info h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  border-bottom: 1px solid rgb(15, 15, 15);
+  padding-bottom: 1%;
+  margin-bottom: 4%;
+  width: 25%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.info .front {
+  border: 1px solid rgb(15, 15, 15);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  padding: 2%;
+}
+.info .back {
+  border: 1px solid rgb(15, 15, 15);
+  gap: 10px;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 2%;
+}
+.info .extra {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  border: 1px solid rgb(15, 15, 15);
+  padding: 2%;
+  border-radius: 5px;
+}
+.info .skills {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+.info .front:hover, .info .back:hover, .info .extra:hover {
+  transition: all 0.7s ease;
+  transform: scale(1.01);
+  border: 1px solid #BBED2F;
+  filter: drop-shadow(0 0 3px #BBED2F);
+}
+.info .front:hover h3, .info .back:hover h3, .info .extra:hover h3 {
+  border-bottom: 1px solid #BBED2F;
+}
+
+.contact {
+  min-height: 100vh;
+  padding: 3%;
+  margin-right: 215px;
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+.contact h2 {
+  text-align: center;
+  font-weight: 300;
+}
+.contact .contact__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.contact .contact__content .contact__icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.contact .contact__content .contact__icons a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.contact .contact__content .form {
+  width: 40%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact .contact__content .form textarea {
+  resize: none;
+  width: 100%;
+  padding: 10px;
+  min-height: 150px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background: rgb(25, 25, 25);
+  color: #ffffff;
+}
+.contact .contact__content .form input {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background: rgb(25, 25, 25);
+  color: #ffffff;
+}
+.contact .contact__content .form label {
+  width: 100%;
+}
+.contact .contact__content .form button {
+  width: 50%;
+  margin-left: auto;
+}
+.contact .contact__content .form textarea, .contact .contact__content .form input, .contact .contact__content .form button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+.contact .contact__content .form textarea:focus, .contact .contact__content .form input:focus {
+  outline: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
