@@ -1,8 +1,9 @@
+import { Nav } from './Nav';
 import { AboutMe } from './AboutMe';
 import { Info } from './Info';
-import { Nav } from './Nav';
+import { Portfolio } from './Portfolio'
 import { Contact } from './Contact'
-
+ 
 export const Home = () => {
 
     return (
@@ -10,6 +11,7 @@ export const Home = () => {
             <Nav />
             <AboutMe />
             <Info />
+            <Portfolio />
             <Contact />
         </div>
     );

@@ -1,23 +1,21 @@
-export const Nav = (props) => {
-
-
+export const Nav = () => {
     return (
         <div className="nav">
             <ul>
                 <li>
-                    <a href="www.google.com" data-text="&nbsp;SobreMi">&nbsp;SobreMi&nbsp;</a>
+                    <a href="#aboutme" data-text="&nbsp;SobreMi">&nbsp;SobreMi&nbsp;</a>
                 </li>
                 
                 <li>
-                <a href="www.google.com" data-text="&nbsp;Tecnologias">&nbsp;Tecnologias&nbsp;</a>
+                <a href="#stack" data-text="&nbsp;Stack">&nbsp;Stack&nbsp;</a>
                 </li>
 
                 <li>
-                <a href="www.google.com" data-text="&nbsp;Portafolio">&nbsp;Portafolio&nbsp;</a>
+                <a href="#portfolio" data-text="&nbsp;Portafolio">&nbsp;Portafolio&nbsp;</a>
                 </li>
 
                 <li>
-                <a href="www.google.com" data-text="&nbsp;Contacto">&nbsp;Contacto&nbsp;</a>
+                <a href="#contact" data-text="&nbsp;Contacto">&nbsp;Contacto&nbsp;</a>
                 </li>
             </ul>
         </div>

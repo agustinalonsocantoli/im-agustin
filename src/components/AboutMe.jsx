@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export const AboutMe = () => {
     return (
-        <div className="aboutme">
+        <div className="aboutme" id='aboutme'>
             <div className='aboutme__img'>
                 <img src={me} alt="me" />
             </div>
@@ -34,9 +34,19 @@ export const AboutMe = () => {
                 </div>
                 
                 <div className='aboutme__enlaces'>
-                    <a className='descarga' href="www.google.com">DESCARGAR CURRICULUM</a>
-                    <a className='icons' href="www.google.com"><GitHubIcon sx={{fontSize: 50}}/></a>
-                    <a className='icons' href="www.google.com"><LinkedInIcon sx={{fontSize: 50}}/></a>
+                    <a className='descarga' href="https://drive.google.com/file/d/1DjgYXmvjbxNti3VYOCbvLeynSYihZbfv/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
+                        DESCARGAR CURRICULUM
+                    </a>
+                    
+                    <a className='icons' 
+
+                    href='http://github.com/agustinalonsocantoli' target='_blank' rel='noopener noreferrer'>
+                        <GitHubIcon sx={{fontSize: 50}}/>
+                    </a>
+                    
+                    <a className='icons' href='http://www.linkedin.com/in/agustin-alonso-cantoli-5a54a0182/' target='_blank' rel='noopener noreferrer'>
+                        <LinkedInIcon sx={{fontSize: 50}}/>
+                    </a>
 
                 </div>
             </div>
