@@ -17,11 +17,11 @@ export const Contact = () => {
     const form = useRef();
     const regex = /^(([^<>()\\[\]\\.,;:\s@"]+(\.[^<>()\\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-    const [ name, setName ] = useState(true);
-    const [ email, setEmail ] = useState(true);
-    const [ message, setMessage ] = useState(true);
-    const [ send, setSend ] = useState(true);
-    const [ error, setError ] = useState(true);
+    const [ name, setName ] = useState(false);
+    const [ email, setEmail ] = useState(false);
+    const [ message, setMessage ] = useState(false);
+    const [ send, setSend ] = useState(false);
+    const [ error, setError ] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
