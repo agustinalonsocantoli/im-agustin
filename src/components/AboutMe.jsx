@@ -20,7 +20,7 @@ export const AboutMe = () => {
                         dataToRotate={[
                         [{ type: "word", text: "Agustin Alonso Cantoli" }]]}
                         cursor={{char: '_'}}
-                        maxTypeSpeed= {400}
+                        maxTypeSpeed= {200}
                         contentClass='tw__content'
                         cursorClass='tw__cursor'
                     />
