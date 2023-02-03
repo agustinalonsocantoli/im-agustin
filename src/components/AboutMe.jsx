@@ -6,6 +6,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import me from '../assets/img/collage.jpg';
 
 export const AboutMe = () => {
+    const resposive = window.innerWidth < 768 ? true : false;
+
     return (
         <div className="aboutme" id='aboutme'>
             <div className='aboutme__img'>
@@ -58,11 +60,11 @@ export const AboutMe = () => {
                     <a className='icons' 
 
                     href='http://github.com/agustinalonsocantoli' target='_blank' rel='noopener noreferrer'>
-                        <GitHubIcon sx={{fontSize: 50}}/>
+                        <GitHubIcon sx={!resposive ? {fontSize: 50} : {fontSize: 40}}/>
                     </a>
                     
                     <a className='icons' href='http://www.linkedin.com/in/agustin-alonso-cantoli-5a54a0182/' target='_blank' rel='noopener noreferrer'>
-                        <LinkedInIcon sx={{fontSize: 50}}/>
+                        <LinkedInIcon sx={!resposive ? {fontSize: 50} : {fontSize: 40}}/>
                     </a>
 
                 </div>

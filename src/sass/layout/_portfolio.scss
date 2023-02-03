@@ -6,7 +6,14 @@
     margin-right: 200px;
     margin-top: 35px;
     color: v.$white;
-    min-height: 100vh;
+
+    @include m.tablet {
+        margin-right: 70px;
+    }
+
+    @include m.phone {
+        margin-right: 50px;
+    }
 
     h2 {
         font-family: v.$raleway;
@@ -26,14 +33,30 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
         border-radius: 10px;
+        justify-items: center;
+
+        @include m.desktopL {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        @include m.desktopS {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include m.tablet {
+            grid-template-columns: repeat(1, 1fr);
+        }
 
         .card {
             width: 395px;
             height: 215px;
             position: relative;
             border: 1px solid transparent;
-
             
+
+            @include m.phone {
+                width: 330px;
+                height: 181px;
+            }
+
             img {
                 width: 100%;
                 height: 100%;
@@ -66,12 +89,20 @@
                         font-family: v.$raleway;
                         font-weight: 600;
                         font-size: 25px;
+
+                        @include m.phone {
+                            font-size: 20px;
+                        }
                     }
         
                     p {
                         font-family: v.$raleway;
                         font-weight: 300;
                         font-size: 18px;
+
+                        @include m.phone {
+                            font-size: 13px;
+                        }
                     }
         
                     span {
@@ -83,6 +114,10 @@
                         font-family: v.$raleway;
                         font-weight: 300;
                         font-size: 15px;
+
+                        @include m.phone {
+                            font-size: 10px;
+                        }
                     }
                 }
                 
@@ -106,6 +141,10 @@
                         border: 1px solid transparent;
                         background-color: v.$principal;
                         transition: all 0.5s ease;
+
+                        @include m.phone {
+                            font-size: 10px;
+                        }
                     }
 
                     a:hover {

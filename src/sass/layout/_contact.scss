@@ -9,6 +9,14 @@
     font-family: v.$raleway;
     padding-bottom: 8%;
 
+    @include m.tablet {
+        margin-right: 70px;
+    }
+
+    @include m.phone {
+        margin-right: 50px;
+    }
+
     h2 {
         font-family: v.$raleway;
         font-weight: 100;
@@ -20,6 +28,15 @@
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 50px;
+
+        @include m.tablet {
+            font-size: 25px;
+        }
+        @include m.phone {
+            font-size: 20px;
+            width: 60%;
+            margin-bottom: 20px;
+        }
     }
 
     .contact__content {
@@ -28,11 +45,19 @@
         align-items: center;
         margin-top: 30px;
 
+        @include m.tablet {
+            flex-direction: column;
+        }
+
         .contact__icons {
             display: flex;
             flex-direction: column;
             gap: 10px;
             text-align: center;
+
+            @include m.tablet {
+                gap: 5px;
+            }
             
             a {
                 text-decoration: none;
@@ -48,11 +73,23 @@
                 font-family: v.$raleway;
                 font-weight: 200;
                 font-size: 20px;
+
+                @include m.phone {
+                    font-size: 15px;
+                }
             }
 
             span:last-child {
                 font-weight: 100;
                 font-size: 13px;
+
+                @include m.tablet {
+                    margin-bottom: 25px;
+                }
+
+                @include m.phone {
+                    font-size: 9px;
+                }
             }
         }
 
@@ -64,6 +101,12 @@
             flex-direction: column;
             gap: 5px;
 
+            @include m.tablet {
+                width: 100%;
+                padding: 5%;
+
+            }
+        
             textarea {
                 resize: none;
                 width: 100%;
@@ -73,6 +116,15 @@
                 border: 1px solid v.$white;
                 background: v.$secundario;
                 color: v.$white;
+
+                @include m.desktopL {
+                    width: 75%;
+                }
+
+                @include m.phone {
+                    min-height: 100px;
+                }
+                
             }
         
             input {
@@ -83,11 +135,19 @@
                 border: 1px solid v.$white;
                 background: v.$secundario;
                 color: v.$white;
+
+                @include m.desktopL {
+                    width: 75%;
+                }
             }
         
             label {
                 width: 100%;
                 margin-top: 5px;
+
+                @include m.desktopL {
+                    width: 75%;
+                }
             }
 
             button {
@@ -100,6 +160,11 @@
                 font-family: v.$raleway;
                 font-weight: 600;
                 text-transform: capitalize;
+
+                @include m.desktopL {
+                    width: 25%;
+                    margin-right: 25%;
+                }
             }
 
             textarea, input {
@@ -118,5 +183,15 @@
         margin-left: auto;
         width: 34%;
         margin-right: 22%;
+
+        @include m.desktopL {
+            width: 25%;
+            margin-right: 35%;
+        }
+
+        @include m.tablet {
+            margin: auto;
+            width: 90%;
+        }
     }
 }

@@ -13,14 +13,15 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 export const Contact = () => {
 
+    const resposive = window.innerWidth < 768 ? true : false;
     const form = useRef();
     const regex = /^(([^<>()\\[\]\\.,;:\s@"]+(\.[^<>()\\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-    const [ name, setName ] = useState(false);
-    const [ email, setEmail ] = useState(false);
-    const [ message, setMessage ] = useState(false);
-    const [ send, setSend ] = useState(false);
-    const [ error, setError ] = useState(false);
+    const [ name, setName ] = useState(true);
+    const [ email, setEmail ] = useState(true);
+    const [ message, setMessage ] = useState(true);
+    const [ send, setSend ] = useState(true);
+    const [ error, setError ] = useState(true);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -62,25 +63,25 @@ export const Contact = () => {
 
             <div className="contact__content">
             
-            <div className='contact__icons'>
-                    <a href='http://github.com/agustinalonsocantoli' target='_blank' rel='noopener noreferrer'>
-                        <GitHubIcon sx={{fontSize: 60}} />
-                    </a>
-                    
-                    <a href='http://www.linkedin.com/in/agustin-alonso-cantoli-5a54a0182/' target='_blank' rel='noopener noreferrer'>
-                        <LinkedInIcon sx={{fontSize: 60}} />
-                    </a>
-                    
-                    <a href='http://www.instagram.com/alonsoagus_/' target='_blank' rel='noopener noreferrer'>
-                        <InstagramIcon sx={{fontSize: 60}} />
+                <div className='contact__icons'>
+                        <a href='http://github.com/agustinalonsocantoli' target='_blank' rel='noopener noreferrer'>
+                            <GitHubIcon sx={!resposive ? {fontSize: 60} : {fontSize: 40}} />
                         </a>
-                    
-                    <a href='mailto:agustinalonsocantoli@gmail.com'>
-                        <EmailIcon sx={{fontSize: 60}} />
-                    </a>
-                    <span>agustinalonsocantoli@gmail.com</span>
-                    <span>Agustin Alonso Cantoli &copy; 2023</span>
-            </div>
+                        
+                        <a href='http://www.linkedin.com/in/agustin-alonso-cantoli-5a54a0182/' target='_blank' rel='noopener noreferrer'>
+                            <LinkedInIcon sx={!resposive ? {fontSize: 60} : {fontSize: 40}} />
+                        </a>
+                        
+                        <a href='http://www.instagram.com/alonsoagus_/' target='_blank' rel='noopener noreferrer'>
+                            <InstagramIcon sx={!resposive ? {fontSize: 60} : {fontSize: 40}} />
+                            </a>
+                        
+                        <a href='mailto:agustinalonsocantoli@gmail.com'>
+                            <EmailIcon sx={!resposive ? {fontSize: 60} : {fontSize: 40}} />
+                        </a>
+                        <span>agustinalonsocantoli@gmail.com</span>
+                        <span>Agustin Alonso Cantoli &copy; 2023</span>
+                </div>
 
                 <form className='form' ref={form} onSubmit={handleSubmit}>
                     <label>Nombre</label>

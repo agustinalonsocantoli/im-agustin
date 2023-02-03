@@ -4,18 +4,35 @@
 .nav {
     position: fixed;
     right: 0;
-    background: rgb(25 25 25 / 100%);
+    // background: rgb(25 25 25 / 100%);
+    z-index: 90;
 
-
-    ul {
-        position: relative;
+    .nav__content {
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
-        margin-right: 5px;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative; 
+        margin-right: 15px;
         margin-left: 5px;
-        height: 100vh;
+        border: 1px solid v.$principal;
+        background: v.$secundario;
+        border-radius: 30px;
+        height: 30%;
+        padding: 15px 10px;
+
+        @include m.phone {
+            padding: 10px 5px;
+            margin-right: 5px;
+            height: 25%;
+        }
     }
 
     ul li {
@@ -31,6 +48,10 @@
         text-decoration: none;
         color: transparent;
         -webkit-text-stroke: 1px rgba(255,255,255,0.5);
+
+        @include m.phone {
+            font-size: 18px;
+        }
     }
 
     ul li a::before {
