@@ -114,27 +114,32 @@ li {
 }
 .aboutme .aboutme__img {
   min-width: 500px;
-  height: 650px;
+  min-height: 600px;
 }
 .aboutme .aboutme__img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 40px;
+  rotate: -5deg;
+  margin-top: 25px;
 }
 .aboutme .aboutme__content {
   padding: 2%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 70px;
+  justify-content: space-around;
 }
 .aboutme .aboutme__content p {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
+.aboutme .aboutme__content p strong {
+  color: #BBED2F;
+}
 .aboutme .aboutme__content .signos {
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   color: #BBED2F;
@@ -146,7 +151,7 @@ li {
   color: #BBED2F;
 }
 .aboutme .aboutme__content .start__writer .tw__content, .aboutme .aboutme__content .start__writer .tw__cursor {
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   color: #BBED2F;
@@ -160,10 +165,10 @@ li {
 .aboutme .aboutme__content .aboutme__enlaces .descarga {
   border-bottom: 1px solid;
   padding-bottom: 3px;
-  font-size: 15px;
+  font-size: 14px;
   color: #BBED2F;
   font-family: "Raleway", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 .aboutme .aboutme__content .aboutme__enlaces .icons {
   color: #ffffff;
@@ -176,8 +181,14 @@ li {
   gap: 50px;
   padding: 2%;
   margin-right: 200px;
-  margin-top: 30px;
+  margin-top: 35px;
   color: #ffffff;
+}
+.info .skills {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 .info h2 {
   font-family: "Raleway", sans-serif;
@@ -218,7 +229,7 @@ li {
 }
 .info .front:hover, .info .back:hover, .info .extra:hover {
   transition: all 0.7s ease;
-  transform: scale(1.05);
+  transform: scale(1.03);
   filter: drop-shadow(0 0 12px #ffffff);
 }
 .info span {
@@ -228,8 +239,9 @@ li {
 .portfolio {
   padding: 2%;
   margin-right: 200px;
-  margin-top: 20px;
+  margin-top: 35px;
   color: #ffffff;
+  min-height: 100vh;
 }
 .portfolio h2 {
   font-family: "Raleway", sans-serif;
@@ -250,9 +262,10 @@ li {
   border-radius: 10px;
 }
 .portfolio .cards .card {
-  width: 402px;
-  height: 220px;
+  width: 395px;
+  height: 215px;
   position: relative;
+  border: 1px solid transparent;
 }
 .portfolio .cards .card img {
   width: 100%;
@@ -261,6 +274,7 @@ li {
   border-radius: 10px;
 }
 .portfolio .cards .card .card__content {
+  opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -270,7 +284,9 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid transparent;
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid #BBED2F;
+  transition: opacity all 0.5 ease;
 }
 .portfolio .cards .card .card__content .content-text {
   display: flex;
@@ -280,13 +296,13 @@ li {
 }
 .portfolio .cards .card .card__content .content-text h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 25px;
 }
 .portfolio .cards .card .card__content .content-text p {
   font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 18px;
 }
 .portfolio .cards .card .card__content .content-text span {
   display: flex;
@@ -294,8 +310,8 @@ li {
   align-items: center;
   gap: 5px;
   font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 15px;
 }
 .portfolio .cards .card .card__content .content-links {
   display: flex;
@@ -308,22 +324,32 @@ li {
   align-items: center;
   gap: 5px;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #BBED2F;
+  transition: all 0.5s ease;
+}
+.portfolio .cards .card .card__content .content-links a:hover {
+  border: 1px solid #BBED2F;
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
 }
 .portfolio .cards .card .card__content:hover {
-  background: rgba(0, 0, 0, 0.9);
-  border: 1px solid #BBED2F;
+  opacity: 1;
 }
 
 .contact {
   padding: 2%;
   margin-right: 200px;
-  margin-top: 20px;
+  margin-top: 30px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
+  padding-bottom: 8%;
 }
 .contact h2 {
   font-family: "Raleway", sans-serif;

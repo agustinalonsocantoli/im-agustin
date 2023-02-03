@@ -4,8 +4,9 @@
 .portfolio {
     padding: 2%;
     margin-right: 200px;
-    margin-top: 20px;
+    margin-top: 35px;
     color: v.$white;
+    min-height: 100vh;
 
     h2 {
         font-family: v.$raleway;
@@ -27,11 +28,11 @@
         border-radius: 10px;
 
         .card {
-            // width: 365px;
-            // height: 200px;
-            width: 402px;
-            height: 220px;
+            width: 395px;
+            height: 215px;
             position: relative;
+            border: 1px solid transparent;
+
             
             img {
                 width: 100%;
@@ -41,6 +42,7 @@
             }
 
             .card__content {
+                opacity: 0;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -50,8 +52,9 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
-                border: 1px solid transparent;
- 
+                background: rgb(0 0 0 / 90%);
+                border: 1px solid v.$principal;
+                transition: opacity all 0.5 ease;
 
                 .content-text {
                     display: flex;
@@ -61,14 +64,14 @@
 
                     h3 {
                         font-family: v.$raleway;
-                        font-weight: 100;
-                        font-size: 20px;
+                        font-weight: 600;
+                        font-size: 25px;
                     }
         
                     p {
                         font-family: v.$raleway;
-                        font-weight: 100;
-                        font-size: 20px;
+                        font-weight: 300;
+                        font-size: 18px;
                     }
         
                     span {
@@ -78,8 +81,8 @@
                         gap: 5px;
 
                         font-family: v.$raleway;
-                        font-weight: 100;
-                        font-size: 20px;
+                        font-weight: 300;
+                        font-size: 15px;
                     }
                 }
                 
@@ -94,27 +97,29 @@
                         align-items: center;
                         gap: 5px;
                         text-decoration: none;
-                        color: v.$white;
-
+                        color: v.$black;
                         font-family: v.$raleway;
-                        font-weight: 100;
-                        font-size: 20px;
+                        font-weight: 500;
+                        font-size: 15px;
+                        padding: 15px;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        background-color: v.$principal;
+                        transition: all 0.5s ease;
+                    }
+
+                    a:hover {
+                        border: 1px solid v.$principal;
+                        background-color: v.$secundario;
+                        color: v.$white;
                     }
                 }
             }
 
             .card__content:hover {
-                background: rgb(0 0 0 / 90%);
-                border: 1px solid v.$principal;
-
+                opacity: 1;
             }
         }
-
-        // .card:hover {
-        //     .card__content {
-        //         display: flex;
-        //     }
-        // }
     }
 }   
 

@@ -14,58 +14,67 @@ export const data = [
         description: 'Buscador de imagenes API Unsplash',
         img: myphotops,
         repository: 'https://github.com/agustinalonsocantoli/myphotops',
-        page: 'https://agustinalonsocantoli.github.io/myphotops/'
+        page: 'https://agustinalonsocantoli.github.io/myphotops/',
+        developing: false
     },
     {
         name: 'OxygenShop',
         description: 'Diseño web E-commerce',
         img: oxygenshop,
         repository: 'https://github.com/agustinalonsocantoli/OxygenShop',
-        page: 'https://agustinalonsocantoli.github.io/OxygenShop/'
+        page: 'https://agustinalonsocantoli.github.io/OxygenShop/',
+        developing: false
     },
     {
         name: 'DivisionCuentas',
         description: 'Divide los gastos del grupo',
         img: divisiongastos,
         repository: 'https://github.com/agustinalonsocantoli/DivisionGastos',
-        page: 'https://claritalacuenta.com/'
+        page: 'https://claritalacuenta.com/',
+        developing: false
     },
     {
         name: 'PokeDex',
         description: 'Buscador de Pokemon y sus stats',
         img: pokedex,
         repository: 'https://github.com/agustinalonsocantoli/PokeDex',
+        developing: false
     },
     {
         name: 'MyNewHome',
         description: 'Diseño web venta bienes raíces',
         img: mynewhome,
         repository: 'https://github.com/agustinalonsocantoli?tab=repositories&q=biene&type=&language=&sort=',
-        page: 'https://mynewhome.netlify.app'
+        page: 'https://mynewhome.netlify.app',
+        developing: false
     },
     {
         name: 'MusicFestival',
         description: 'Diseño web festival de Musica',
         img: musicfestival,
         repository: 'https://github.com/agustinalonsocantoli/FestivalMusica',
-        page: 'https://partyandmusic.netlify.app'
+        page: 'https://partyandmusic.netlify.app',
+        developing: false
     },
     {
         name: 'EasyBot',
         description: 'Bot de Telegram',
         img: easybot,
         repository: 'https://github.com/agustinalonsocantoli/Bot',
+        developing: false
     },
     {
         name: 'InvasionGame',
         description: 'Juego de habilidad',
         img: invasiongame,
         repository: 'https://github.com/agustinalonsocantoli/InvasionGame',
+        developing: false
     },
     {
         name: 'SistemaRestaurante',
         description: 'Sistema de control y cobro de mesas',
         img: sistemarestaurante,
         repository: 'https://github.com/agustinalonsocantoli/SistemaRestaurante',
+        developing: false
     },
 ]

@@ -1,6 +1,6 @@
 import { Nav } from './Nav';
 import { AboutMe } from './AboutMe';
-import { Info } from './Info';
+import { Stack } from './Stack';
 import { Portfolio } from './Portfolio'
 import { Contact } from './Contact'
  
@@ -10,7 +10,7 @@ export const Home = () => {
         <div>
             <Nav />
             <AboutMe />
-            <Info />
+            <Stack />
             <Portfolio />
             <Contact />
         </div>

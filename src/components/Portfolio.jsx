@@ -15,17 +15,17 @@ export const Portfolio = () => {
                         <img src={item.img} alt='ok'/>
 
                         <div className='card__content'>
-                            
+
                             <div className='content-text'>
                                 <h3>{item.name}</h3>
                                 <p>{item.description}</p>
                                 <div className='develop'>
-                                    <span><EngineeringIcon />Proximamente</span>
+                                    {item.developing && <span><EngineeringIcon />Proximamente</span>}
                                 </div>
                             </div>
 
                             <div className='content-links'>
-                                <a href={item.page} target='_blank' rel='noopener noreferrer'><WebIcon />Web</a>
+                                {item.page && <a href={item.page} target='_blank' rel='noopener noreferrer'><WebIcon />Web</a>}
                                 <a href={item.repository} target='_blank' rel='noopener noreferrer'><GitHubIcon />Repositorio</a>
                             </div>
                         </div>
