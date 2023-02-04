@@ -32,7 +32,7 @@ export const AboutMe = () => {
                     <span className='signos'>&lt;&gt;</span>
                     <p>
                         Soy <strong>desarrollador web Frontend</strong>, en este último tiempo me he dedicado a construir
-                        proyectos en <strong>React con HTML, CSS, SASS y JavaScript</strong>. Aunque también he trabajo 
+                        proyectos en <strong>React con HTML, CSS, SASS y JavaScript</strong>. Aunque también he trabajado 
                         con Angular, Node.js y Python. Soy una persona muy organizada por lo que priorizo
                         un <strong>código limpio y ordenado</strong>.
                     </p>
