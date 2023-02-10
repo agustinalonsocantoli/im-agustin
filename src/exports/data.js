@@ -7,8 +7,17 @@ import invasiongame from '../assets/portfolio/invasiongame.png'
 import musicfestival from '../assets/portfolio/musicfestival.png'
 import mynewhome from '../assets/portfolio/mynewhome.png'
 import sistemarestaurante from '../assets/portfolio/sistemarestaurante.png'
+import hotelmiranda from '../assets/portfolio/hotelmiranda.png'
 
 export const data = [
+    {
+        name: 'Hotel Miranda',
+        description: 'WebApp para cadena hotelera',
+        img: hotelmiranda,
+        repository: 'https://github.com/agustinalonsocantoli/hotel-miranda',
+        page: 'https://agustinalonsocantoli.github.io/hotel-miranda',
+        developing: true
+    },
     {
         name: 'MyPhoTOPs',
         description: 'Buscador de imagenes API Unsplash',
