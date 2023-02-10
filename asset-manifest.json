@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/im-agustin/static/css/main.3ef05482.css",
-    "main.js": "/im-agustin/static/js/main.f8d387f7.js",
+    "main.js": "/im-agustin/static/js/main.58efeaac.js",
     "static/js/787.b100f168.chunk.js": "/im-agustin/static/js/787.b100f168.chunk.js",
     "static/media/myphotops.png": "/im-agustin/static/media/myphotops.af93f3ef1b3226492ca7.png",
+    "static/media/hotelmiranda.png": "/im-agustin/static/media/hotelmiranda.15660c844e967218a127.png",
     "static/media/oxygenshop.png": "/im-agustin/static/media/oxygenshop.3c4ae4c619cfef5b1706.png",
     "static/media/mynewhome.png": "/im-agustin/static/media/mynewhome.c7f0b205f79d0fe3bcb5.png",
     "static/media/musicfestival.png": "/im-agustin/static/media/musicfestival.49a660c6ea243e6c6099.png",
@@ -24,11 +25,11 @@
     "static/media/js.png": "/im-agustin/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/im-agustin/index.html",
     "main.3ef05482.css.map": "/im-agustin/static/css/main.3ef05482.css.map",
-    "main.f8d387f7.js.map": "/im-agustin/static/js/main.f8d387f7.js.map",
+    "main.58efeaac.js.map": "/im-agustin/static/js/main.58efeaac.js.map",
     "787.b100f168.chunk.js.map": "/im-agustin/static/js/787.b100f168.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef05482.css",
-    "static/js/main.f8d387f7.js"
+    "static/js/main.58efeaac.js"
   ]
 }
