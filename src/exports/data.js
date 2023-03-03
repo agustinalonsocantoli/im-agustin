@@ -2,14 +2,24 @@ import myphotops from '../assets/portfolio/myphotops.png'
 import oxygenshop from '../assets/portfolio/oxygenshop.png'
 import divisiongastos from '../assets/portfolio/divisiongastos.png'
 import pokedex from '../assets/portfolio/pokedex.png'
-import easybot from '../assets/portfolio/easybot.png'
-import invasiongame from '../assets/portfolio/invasiongame.png'
+// import easybot from '../assets/portfolio/easybot.png'
+// import invasiongame from '../assets/portfolio/invasiongame.png'
+// import sistemarestaurante from '../assets/portfolio/sistemarestaurante.png'
 import musicfestival from '../assets/portfolio/musicfestival.png'
 import mynewhome from '../assets/portfolio/mynewhome.png'
-import sistemarestaurante from '../assets/portfolio/sistemarestaurante.png'
 import hotelmiranda from '../assets/portfolio/hotelmiranda.png'
+import hmdashboard from '../assets/portfolio/hmdashboard.png'
+import nikestore from '../assets/portfolio/nikestore.png'
 
 export const data = [
+    {
+        name: 'Hotel Miranda Dashboard',
+        description: 'Dashboard Admin, gestion de reservas y habitaciones',
+        img: hmdashboard,
+        repository: 'https://github.com/agustinalonsocantoli/ht-miranda-dashboard',
+        page: 'https://agustinalonsocantoli.github.io/ht-miranda-dashboard/',
+        developing: true
+    },
     {
         name: 'Hotel Miranda',
         description: 'WebApp para cadena hotelera',
@@ -17,6 +27,14 @@ export const data = [
         repository: 'https://github.com/agustinalonsocantoli/hotel-miranda',
         page: 'https://agustinalonsocantoli.github.io/hotel-miranda',
         developing: true
+    },
+    {
+        name: 'Nike Store E-commerce',
+        description: 'Copy Nike Store WebApp',
+        img: nikestore,
+        repository: 'https://github.com/agustinalonsocantoli/ecommerce-nike',
+        page: 'https://agustinalonsocantoli.github.io/ecommerce-nike/',
+        developing: false
     },
     {
         name: 'MyPhoTOPs',
@@ -65,25 +83,25 @@ export const data = [
         page: 'https://partyandmusic.netlify.app',
         developing: false
     },
-    {
-        name: 'EasyBot',
-        description: 'Bot de Telegram',
-        img: easybot,
-        repository: 'https://github.com/agustinalonsocantoli/Bot',
-        developing: false
-    },
-    {
-        name: 'InvasionGame',
-        description: 'Juego de habilidad',
-        img: invasiongame,
-        repository: 'https://github.com/agustinalonsocantoli/InvasionGame',
-        developing: false
-    },
-    {
-        name: 'SistemaRestaurante',
-        description: 'Sistema de control y cobro de mesas',
-        img: sistemarestaurante,
-        repository: 'https://github.com/agustinalonsocantoli/SistemaRestaurante',
-        developing: false
-    },
+    // {
+    //     name: 'EasyBot',
+    //     description: 'Bot de Telegram',
+    //     img: easybot,
+    //     repository: 'https://github.com/agustinalonsocantoli/Bot',
+    //     developing: false
+    // },
+    // {
+    //     name: 'InvasionGame',
+    //     description: 'Juego de habilidad',
+    //     img: invasiongame,
+    //     repository: 'https://github.com/agustinalonsocantoli/InvasionGame',
+    //     developing: false
+    // },
+    // {
+    //     name: 'SistemaRestaurante',
+    //     description: 'Sistema de control y cobro de mesas',
+    //     img: sistemarestaurante,
+    //     repository: 'https://github.com/agustinalonsocantoli/SistemaRestaurante',
+    //     developing: false
+    // },
 ]

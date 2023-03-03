@@ -20,7 +20,7 @@ export const Portfolio = () => {
                                 <h3>{item.name}</h3>
                                 <p>{item.description}</p>
                                 <div className='develop'>
-                                    {item.developing && <span><EngineeringIcon />Proximamente</span>}
+                                    {item.developing && <span><EngineeringIcon />En desarrollo</span>}
                                 </div>
                             </div>
 
