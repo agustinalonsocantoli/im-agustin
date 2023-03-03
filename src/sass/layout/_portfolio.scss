@@ -99,6 +99,8 @@
                         font-family: v.$raleway;
                         font-weight: 300;
                         font-size: 18px;
+                        text-align: center;
+                        margin: 0 30px;
 
                         @include m.phone {
                             font-size: 13px;
