@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/im-agustin/static/css/main.3ef05482.css",
-    "main.js": "/im-agustin/static/js/main.58efeaac.js",
+    "main.css": "/im-agustin/static/css/main.f262843b.css",
+    "main.js": "/im-agustin/static/js/main.56eb6e4c.js",
     "static/js/787.b100f168.chunk.js": "/im-agustin/static/js/787.b100f168.chunk.js",
     "static/media/myphotops.png": "/im-agustin/static/media/myphotops.af93f3ef1b3226492ca7.png",
     "static/media/hotelmiranda.png": "/im-agustin/static/media/hotelmiranda.15660c844e967218a127.png",
     "static/media/oxygenshop.png": "/im-agustin/static/media/oxygenshop.3c4ae4c619cfef5b1706.png",
     "static/media/mynewhome.png": "/im-agustin/static/media/mynewhome.c7f0b205f79d0fe3bcb5.png",
     "static/media/musicfestival.png": "/im-agustin/static/media/musicfestival.49a660c6ea243e6c6099.png",
-    "static/media/invasiongame.png": "/im-agustin/static/media/invasiongame.15615744a7ee8db7c6f6.png",
+    "static/media/nikestore.png": "/im-agustin/static/media/nikestore.e86d8df939d7ad068065.png",
     "static/media/divisiongastos.png": "/im-agustin/static/media/divisiongastos.08e8fe87f211a6b533b9.png",
-    "static/media/sistemarestaurante.png": "/im-agustin/static/media/sistemarestaurante.a752ee0ce9480c5af08f.png",
+    "static/media/hmdashboard.png": "/im-agustin/static/media/hmdashboard.6dbac548a114c70ade97.png",
     "static/media/pokedex.png": "/im-agustin/static/media/pokedex.dbea7156d64b954c0753.png",
-    "static/media/easybot.png": "/im-agustin/static/media/easybot.c1878b27461608a2d850.png",
     "static/media/collage.jpg": "/im-agustin/static/media/collage.5aba2e0f8a4331f0015c.jpg",
-    "static/media/java.png": "/im-agustin/static/media/java.467ba433223187cfe47f.png",
     "static/media/react.png": "/im-agustin/static/media/react.07d9e407d4e491c548d5.png",
     "static/media/github.png": "/im-agustin/static/media/github.a19665014ec3fdcb1ba0.png",
     "static/media/sass.png": "/im-agustin/static/media/sass.c5da83bb9ff45b84e0e7.png",
@@ -24,12 +22,12 @@
     "static/media/css.png": "/im-agustin/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/js.png": "/im-agustin/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/im-agustin/index.html",
-    "main.3ef05482.css.map": "/im-agustin/static/css/main.3ef05482.css.map",
-    "main.58efeaac.js.map": "/im-agustin/static/js/main.58efeaac.js.map",
+    "main.f262843b.css.map": "/im-agustin/static/css/main.f262843b.css.map",
+    "main.56eb6e4c.js.map": "/im-agustin/static/js/main.56eb6e4c.js.map",
     "787.b100f168.chunk.js.map": "/im-agustin/static/js/787.b100f168.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ef05482.css",
-    "static/js/main.58efeaac.js"
+    "static/css/main.f262843b.css",
+    "static/js/main.56eb6e4c.js"
   ]
 }
