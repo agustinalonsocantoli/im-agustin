@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/im-agustin/static/css/main.f262843b.css",
-    "main.js": "/im-agustin/static/js/main.56eb6e4c.js",
+    "main.js": "/im-agustin/static/js/main.5a2b854f.js",
     "static/js/787.b100f168.chunk.js": "/im-agustin/static/js/787.b100f168.chunk.js",
     "static/media/myphotops.png": "/im-agustin/static/media/myphotops.af93f3ef1b3226492ca7.png",
     "static/media/hotelmiranda.png": "/im-agustin/static/media/hotelmiranda.15660c844e967218a127.png",
@@ -23,11 +23,11 @@
     "static/media/js.png": "/im-agustin/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/im-agustin/index.html",
     "main.f262843b.css.map": "/im-agustin/static/css/main.f262843b.css.map",
-    "main.56eb6e4c.js.map": "/im-agustin/static/js/main.56eb6e4c.js.map",
+    "main.5a2b854f.js.map": "/im-agustin/static/js/main.5a2b854f.js.map",
     "787.b100f168.chunk.js.map": "/im-agustin/static/js/787.b100f168.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f262843b.css",
-    "static/js/main.56eb6e4c.js"
+    "static/js/main.5a2b854f.js"
   ]
 }
