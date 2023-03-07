@@ -53,7 +53,7 @@ export const AboutMe = () => {
                 </div>
                 
                 <div className='aboutme__enlaces'>
-                    <a className='descarga' href="https://drive.google.com/file/d/1DjgYXmvjbxNti3VYOCbvLeynSYihZbfv/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
+                    <a className='descarga' href="https://drive.google.com/file/d/10prFXoh85dDULo-Je1bjYsABWRxDBrnQ/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
                         DESCARGAR CURRICULUM
                     </a>
                     
