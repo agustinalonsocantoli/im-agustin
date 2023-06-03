@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Start } from './components/Start';
 
 import { getScrollPercent } from './exports/scroll'
+import { Home } from './components/Home';
 
 const App = () => {
 
@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <div>
-      <Start />
+      <Home />
     </div>
   );
 }
